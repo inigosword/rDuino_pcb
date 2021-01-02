@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# DHT22
+#
+DEF DHT22 U 0 40 Y Y 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "DHT22" 0 0 50 H I L BNN
+F2 "DHT22" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 0 500 0 0 N
+P 2 0 0 10 0 0 400 0 N
+P 2 0 0 10 400 0 400 500 N
+P 2 0 0 10 400 500 0 500 N
+X VDD VDD 600 400 200 L 40 40 0 0 W 
+X DATA DATA 600 300 200 L 40 40 0 0 O 
+X NULL NC 600 200 200 L 40 40 0 0 N 
+X GND GND 600 100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

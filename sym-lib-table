@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name DigiKey)(type Legacy)(uri C:/Users/RandallBertrand/Documents/KiCad/libraries/digikey-kicad-library-master/digikey-symbols/dk_LED-Indication-Discrete.lib)(options "")(descr ""))
+  (lib (name Arduino)(type Legacy)(uri C:/Users/RandallBertrand/Documents/KiCad/libraries/arduino-kicad-library-master/arduino.lib)(options "")(descr ""))
+  (lib (name 555Timer)(type Legacy)(uri ${KIPRJMOD}/555Timer.lib)(options "")(descr "")(disabled))
+  (lib (name joystick)(type Legacy)(uri ${KIPRJMOD}/joystick.lib)(options "")(descr ""))
+  (lib (name rDuino)(type Legacy)(uri ${KIPRJMOD}/rDuino.lib)(options "")(descr ""))
+)
