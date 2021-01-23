@@ -205,13 +205,7 @@ F 3 "" H 6100 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 1450 6100 1600
-Wire Wire Line
 	5800 2050 5900 2050
-Wire Wire Line
-	5900 2050 5900 1350
-Wire Wire Line
-	5900 1350 6100 1350
 $Comp
 L rDuino:GPS P2
 U 1 1 5FEDEFC9
@@ -581,17 +575,6 @@ Wire Wire Line
 	9200 5350 9200 5300
 Wire Wire Line
 	9200 5300 9500 5300
-$Comp
-L rDuino:SPEAKER P9
-U 1 1 6027021E
-P 6300 1450
-F 0 "P9" H 6362 1494 50  0000 L CNN
-F 1 "SPEAKER" H 6250 1250 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6300 1450 50  0001 C CNN
-F 3 "~" H 6300 1450 50  0001 C CNN
-	1    6300 1450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6100 1600 6250 1600
 $Comp
@@ -710,4 +693,34 @@ F 3 "" H 3200 5950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2000 2450 3200 2450
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 600CBD2B
+P 6500 1200
+F 0 "J2" H 6608 1481 50  0000 C CNN
+F 1 "Speaker" H 6608 1390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6500 1200 50  0001 C CNN
+F 3 "~" H 6500 1200 50  0001 C CNN
+	1    6500 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 1200 6300 1200
+Wire Wire Line
+	5900 1200 5900 2050
+Wire Wire Line
+	6100 1300 6300 1300
+Wire Wire Line
+	6100 1300 6100 1600
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 600F1F82
+P 6300 1100
+F 0 "#PWR0104" H 6300 950 50  0001 C CNN
+F 1 "+3.3V" H 6315 1273 50  0000 C CNN
+F 2 "" H 6300 1100 50  0001 C CNN
+F 3 "" H 6300 1100 50  0001 C CNN
+	1    6300 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
